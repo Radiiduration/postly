@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Postly — email approval helper",
+  "version": "0.1.0",
+  "description": "Private LinkedIn drafting with email approval before publishing.",
+  "action": {
+    "default_title": "Postly",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "permissions": ["storage", "alarms"],
+  "options_page": "options.html"
+}
